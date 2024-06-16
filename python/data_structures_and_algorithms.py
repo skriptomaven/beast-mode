@@ -28,4 +28,13 @@
              - It is mainly used in ```for``` and ```while``` loops
              - Use case:
                 range(start, stop, step) e.g., print(list(range(20, 10, -2)))
+
+    2. Lists - Are used to store multiple items in a variable.
+             - Duplicate values are allowed
+             - Items can be of different types
+             - Items are enclose in [] and separated by a comma
+             - Example:
+                stupid_list = [2, 'Kayla', 'diel', 700]
+             - Lists are mutable: elements can be: added, deleted, shifted, and moved within
+             the list.
 '''
