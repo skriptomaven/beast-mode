@@ -81,7 +81,7 @@
             else:
                 print('He is here!')
 
-    2. Identify Ops - are used to compare objects: ```is``` and ```is not```
+    2. Identity Operators - are used to compare objects: ```is``` and ```is not```
         - is: is used to check whether 2 objs refer to the same obj
         - note that is it way different to == equality check op
 
@@ -98,4 +98,47 @@
         
         else:
             print('Both variables are not pointing to the same object')
+
+        third_list = first_list
+
+        if third_list is second_list:
+            print('Both are pointing to the same object')
+        else:
+            print('Both are not pointing to the same object')
+
+        - is not: is used to check whether two variables point to the same object or not
+
+        list_one = []
+        list_two = []
+        if list_one is not list_two:
+            print('Both list one and list two variables are the same objects')
+        else:
+            print('Both list one and list two variables are not the same object')
+
+    3. Logical operators: AND, OR, and NOT
+
+        - AND: Both conditions are met
+            a = 30
+            b = 40
+            if a > 10 and b > 10:
+                print('Both variables are greater than 10')
+            else:
+                print('At least one of the variables is less than 10')
+
+        - OR: At least one condition is met
+
+            a = 1
+            b = 2
+            if a > 0 or b > 0:
+                print('At least one of the variables is greater than zero')
+            else:
+                print('Both variables are less than zero')
+
+        - NOT: returns True if object or operand is false, otherwise returns False
+
+            a = 10
+            if not a:
+                print('Boolean value of a is false')
+            else:
+                print('Boolean value of a is True')
 '''
