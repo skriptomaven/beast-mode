@@ -9,4 +9,23 @@
         system are chosen.
         - Data structures deal with how the data is stored & organized in the memory  of the computer
         that is going to be used in the program.
+
+    Data Types:
+        These are simple data types
+        1. Numeric - Integer(int), float, complex
+        2. Boolean - bool
+        3. Sequency - String(str), range, list, tuple
+
+        These are complex data types
+        4. Mapping - dictionary(dict)
+        5. Set - set, frozenset
+
+    0. Strings - HAHAHAHA we all know what strings are just rem that they are immutable
+
+    1. Range - Represents an immutable sequence of numbers
+             - Returns a seq. of numbers starting from a given number to a number specified in the
+             function argument.
+             - It is mainly used in ```for``` and ```while``` loops
+             - Use case:
+                range(start, stop, step) e.g., print(list(range(20, 10, -2)))
 '''
