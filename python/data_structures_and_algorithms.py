@@ -80,4 +80,22 @@
                 print('Not here!)
             else:
                 print('He is here!')
+
+    2. Identify Ops - are used to compare objects: ```is``` and ```is not```
+        - is: is used to check whether 2 objs refer to the same obj
+        - note that is it way different to == equality check op
+
+        first_list = []
+        second_list = []
+
+        if first_list == second_list:
+            print('Both are equal')
+        else:
+            print('Both are not equal')
+
+        if first_list is second_list:
+            print('Both variables are pointing to the same object')
+        
+        else:
+            print('Both variables are not pointing to the same object')
 '''
