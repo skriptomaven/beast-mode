@@ -142,3 +142,29 @@
             else:
                 print('Boolean value of a is True')
 '''
+
+# Tuples - are used to store multiple items in a single variable
+#        - are immutable, unchangeable
+#        - best for storing data that we do not intend to modify in the program
+#        - syntax: tuple_name('item_one', 'item_two', 'item_three') see example below
+my_tuple = ('Jeff', 11, True, 'male')
+#       - supports operations such as:
+#       - length using len()
+print(len((2, 3, 'John')))
+#       - Concatenation using +
+print((2, 3)+(7, 9))
+#       - Repetition using *
+print((2, 1)*3)
+#       - Membership using bool
+print(3, in ('hello', 'exyx', 3)) # returns True
+#       - Iteration using loops
+for i in (1, 2, 3):
+    print(i) # prints 1, 2, 3
+
+# Tuples support zero-based indexing, negative indexing, and slicing
+temp = ('hello', 'john', 'doe')
+print(temp[1]) # prints john
+print(temp[-2]) # prints john
+print(temp[1:]) # prints john, doe
+
+# Complex data types
