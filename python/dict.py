@@ -62,4 +62,4 @@ coder.popitem()
 d_one = {'a': 10, 'b': 20, 'c': 30}
 d_two = {'b': 200, 'd': 400}
 new_d_one = d_one.update(d_two)
-print(d_one) # returns: {'a': 10, 'b': 200, 'c': 30, 'd': 400}
+print(new_d_one) # returns: {'a': 10, 'b': 200, 'c': 30, 'd': 400}
